@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.6/angular.min.js"></script>
+<script src="js/indexController.js"></script>
+<title>Hello AngularJS</title>
+</head>
+
+<body ng-app="hello">
+  <div class="container">
+    <h1>Greeting</h1>
+    <div ng-controller="home" ng-cloak class="ng-cloak">
+      <p>The ID is {{greeting.id}}</p>
+      <p>The content is {{greeting.content}}</p>
+    </div>
+  </div>
+
+</body>
+</html>
